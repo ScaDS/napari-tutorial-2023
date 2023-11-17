@@ -45,6 +45,18 @@ Whenever you want to work on the same project again, you should start a command 
 mamba activate devbio-napari-env
 ```
 
+Start Napari from the terminal like this:
+
+```
+naparia
+```
+
+And this window should open:
+
+![img.png](naparia-screenshot.png)
+
+Close Napari and go ahead. 
+
 Start [Jupyter lab](https://jupyter.org/) from the terminal like this
 
 ```
