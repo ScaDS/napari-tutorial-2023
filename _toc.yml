@@ -8,7 +8,13 @@ parts:
   - caption: Tutorial
     chapters:
     - file: 00_preparation/readme
-
+    - file: 01_scripting/napari_intro
+    - file: 02_notebooks/napari-assistant
+    - file: 02_notebooks/notebook_export
+    - file: 03_machine_learning/interactive_pixel_classification
+    - file: 03_machine_learning/interactive_object_classification
+    # generating notebooks using APOC
+    
 #    - file: 02_python_basics/readme
 #      sections:
 #      - file: 02_python_basics/01_our_first_juptyer_notebook
