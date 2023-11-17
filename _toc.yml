@@ -1,0 +1,16 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+
+parts:
+  - caption: Tutorial
+    chapters:
+    - file: 00_preparation/readme
+
+#    - file: 02_python_basics/readme
+#      sections:
+#      - file: 02_python_basics/01_our_first_juptyer_notebook
+
+    - file: imprint
