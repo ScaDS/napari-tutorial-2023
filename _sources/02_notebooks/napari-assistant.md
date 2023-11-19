@@ -7,7 +7,7 @@ This tutorial is also available as video [napari-assistant.mp4](images/napari-as
 Start napari from the command line like this:
 
 ```bash
-conda activate my_first_env
+conda activate devbio-napari-env
 
 napari
 ```
