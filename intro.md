@@ -1,7 +1,17 @@
 # Napari Tutorial
 
-* [napari](https://napari.org/)
-* [napari-segment-blobs-and-things-with-membranes](https://github.com/haesleinhuepf/napari-segment-blobs-and-things-with-membranes)
+This [Jupyter Book](https://jupyterbook.org/) contains notebooks demonstrating [Napari](https://napari.org) for bio-image analysis.
+
+![](00_preparation/napari-apoc-teaser.gif)
+
+## Slides
+
+The tutorial slides will be available here soon.
+
+## Other tutorials
+
+This tutorial is a short version adapted from [this one](https://www.youtube.com/watch?v=QDS5t7oZH-c). 
+You can find other Napari tutorials [online](https://napari.org/stable/further-resources/napari-workshops.html).
 
 ## Questions and answers
 
