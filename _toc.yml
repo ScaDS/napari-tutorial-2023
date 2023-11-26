@@ -22,6 +22,6 @@ parts:
     chapters:
     - url: https://doi.org/10.5281/zenodo.10207321
       title: Download Slides
-    - License: https://creativecommons.org/licenses/by/4.0/
-      title: CC-BY 4.0
+    - url: https://creativecommons.org/licenses/by/4.0/
+      title: License CC-BY 4.0
     - file: imprint
