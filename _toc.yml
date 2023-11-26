@@ -18,4 +18,10 @@ parts:
     - file: 03_supervised_machine_learning/interactive_object_classification/readme
     - file: 04_unsupervised_machine_learning/interactive_clustering
 
+  - caption: Links
+    chapters:
+    - url: https://doi.org/10.5281/zenodo.10207321
+      title: Download Slides
+    - License: https://creativecommons.org/licenses/by/4.0/
+      title: CC-BY 4.0
     - file: imprint
