@@ -14,8 +14,8 @@ See also
 * [Managing Scientific Python environments using Conda, Mamba and friends](https://focalplane.biologists.com/2022/12/08/managing-scientific-python-environments-using-conda-mamba-and-friends/)
 * [Scientific Data Analysis with Python](https://youtu.be/MOEPe9TGBK0)
 
-## Step 1: Install Mambaforge
-Download and install mamba/conda. We recommend the distribution [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge).
+## Step 1: Install Miniforge
+Download and install mamba/conda. We recommend the distribution [Miniforge](https://github.com/conda-forge/miniforge#miniforge3).
 
 For ease-of-use, it is recommended to install it for your use only and to add Conda to the PATH variable during installation.
 
