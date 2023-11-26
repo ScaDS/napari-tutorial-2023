@@ -1,6 +1,6 @@
-# The Napari Assistant
+# Interactive bioimage analysis workflow design
 
-The Napari Assistant is a plugin for napari that allows you setting up an image processing workflow.
+The [Napari Assistant](https://www.napari-hub.org/plugins/napari-assistant) is a Napari plugin that allows you to design an image processing workflow interactively.
 
 This tutorial is also available as video [napari-assistant.mp4](images/napari-assistant.mp4).
 

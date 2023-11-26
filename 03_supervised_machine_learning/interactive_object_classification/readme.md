@@ -1,4 +1,4 @@
-# Interactive object classification in Napari
+# Interactive object classification
 
 In this exercise we will train a [Random Forest Classifiers](https://en.wikipedia.org/wiki/Random_forest) for classifying segmented objects. 
 We will use the napari plugin [napari-accelerated-pixel-and-object-classification](https://www.napari-hub.org/plugins/napari-accelerated-pixel-and-object-classification).

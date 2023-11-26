@@ -1,4 +1,4 @@
-# Generating Jupyter Notebooks from the Napari Assistant
+# Generating Jupyter Notebooks
 
 After setting  up a workflow using the Napari Assistant, we can export Python code, e.g. as Jupyter Notebook.
 
@@ -46,3 +46,7 @@ Rerun the notebook, or modify the order of layers manually in the Napari viewer.
 ![](images/export_notebooks09.jpg)
 
 Voila! You have now generated a Jupyter Notebook from a Napari Assistant workflow. This notebook documents your work reproducibly and can be shared with others.
+
+## Exercise
+
+Load the image `human_mitosis` from the menu `File > Open Samples > napari builtins > Human mitosis` and design a workflow for segmenting the nuclei. Export the workflow as Jupyter notebook.
