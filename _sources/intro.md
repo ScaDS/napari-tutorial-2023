@@ -6,7 +6,9 @@ This [Jupyter Book](https://jupyterbook.org/) contains notebooks demonstrating [
 
 ## Slides
 
-The tutorial slides will be available here soon.
+The tutorial slides can be downloaded from [zenodo](https://doi.org/10.5281/zenodo.10207321).
+
+![slides](00_preparation/slides.gif)
 
 ## Other tutorials
 
@@ -19,8 +21,13 @@ If you want to discuss lessons in this Jupyter book, have feedback and/or sugges
 
 ## Acknowledgements
 
+The authors acknowledge the financial support by the Federal Ministry of Education and Research of Germany and by Sächsische Staatsministerium für Wissenschaft, Kultur und Tourismus in the programme Center of Excellence for AI-research „Center for Scalable Data Analytics and Artificial Intelligence Dresden/Leipzig“, project identification number: ScaDS.AI
+
+This work was funded by the German Federal Ministry of Education and Research 
+within the project Competence Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) Dresden/Leipzig (BMBF 01IS18026B)
+
+This project has been made possible in part by grant number 2021-240341 and 2022-252520 from the Chan Zuckerberg Initiative DAF, an advised fund of the Silicon Valley Community Foundation.
 
 ## License
 
-All contents of this Jupyter book and the corresponding Github repository are licensed [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) and 
-BSD3 by the [authors and contributors](https://github.com/ScaDS/napari-tutorial-2023/contributors), unless mentioned otherwise.
+All contents of this Jupyter book, the corresponding Github repository and the slides can be reused under the terms of the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license, unless mentioned otherwise.

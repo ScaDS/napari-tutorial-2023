@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>The Napari Assistant &#8212; Napari Tutorial 2023</title>
+    <title>Interactive bioimage analysis workflow design &#8212; Napari Tutorial 2023</title>
   
   
   
@@ -61,7 +61,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = '02_notebooks/napari-assistant';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Generating Jupyter Notebooks from the Napari Assistant" href="notebook_export.html" />
+    <link rel="next" title="Generating Jupyter Notebooks" href="notebook_export.html" />
     <link rel="prev" title="Interactive visualization with Napari" href="../01_scripting/napari_intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="docsearch:language" content="en">
@@ -152,21 +152,21 @@ const thebe_selector_output = ".output, .cell_output"
 
                     <li class="nav-item current active">
                       <a class="nav-link nav-internal" href="#">
-                        The Napari Assistant
+                        Interactive bioimage analysis workflow design
                       </a>
                     </li>
                 
 
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="notebook_export.html">
-                        Generating Jupyter Notebooks from the Napari Assistant
+                        Generating Jupyter Notebooks
                       </a>
                     </li>
                 
 
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="../03_supervised_machine_learning/interactive_pixel_classification/readme.html">
-                        Interactive pixel classification and object segmentation in Napari
+                        Interactive pixel classification and object segmentation
                       </a>
                     </li>
                 
@@ -178,7 +178,7 @@ const thebe_selector_output = ".output, .cell_output"
                     
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="../03_supervised_machine_learning/interactive_object_classification/readme.html">
-                        Interactive object classification in Napari
+                        Interactive object classification
                       </a>
                     </li>
                 
@@ -281,21 +281,21 @@ const thebe_selector_output = ".output, .cell_output"
 
                     <li class="nav-item current active">
                       <a class="nav-link nav-internal" href="#">
-                        The Napari Assistant
+                        Interactive bioimage analysis workflow design
                       </a>
                     </li>
                 
 
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="notebook_export.html">
-                        Generating Jupyter Notebooks from the Napari Assistant
+                        Generating Jupyter Notebooks
                       </a>
                     </li>
                 
 
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="../03_supervised_machine_learning/interactive_pixel_classification/readme.html">
-                        Interactive pixel classification and object segmentation in Napari
+                        Interactive pixel classification and object segmentation
                       </a>
                     </li>
                 
@@ -307,7 +307,7 @@ const thebe_selector_output = ".output, .cell_output"
                     
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="../03_supervised_machine_learning/interactive_object_classification/readme.html">
-                        Interactive object classification in Napari
+                        Interactive object classification
                       </a>
                     </li>
                 
@@ -402,13 +402,13 @@ const thebe_selector_output = ".output, .cell_output"
 
 <li class="toctree-l1"><a class="reference internal" href="../01_scripting/napari_intro.html">Interactive visualization with Napari</a></li>
 
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">The Napari Assistant</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebook_export.html">Generating Jupyter Notebooks from the Napari Assistant</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Interactive bioimage analysis workflow design</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebook_export.html">Generating Jupyter Notebooks</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Optional exercises</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../03_supervised_machine_learning/interactive_pixel_classification/readme.html">Interactive pixel classification and object segmentation in Napari</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../03_supervised_machine_learning/interactive_object_classification/readme.html">Interactive object classification in Napari</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03_supervised_machine_learning/interactive_pixel_classification/readme.html">Interactive pixel classification and object segmentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03_supervised_machine_learning/interactive_object_classification/readme.html">Interactive object classification</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../04_unsupervised_machine_learning/interactive_clustering.html">Interactive object clustering</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../imprint.html">Imprint</a></li>
 
@@ -553,7 +553,7 @@ title="Print to PDF"
             
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>The Napari Assistant</h1>
+    <h1>Interactive bioimage analysis workflow design</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -564,9 +564,9 @@ title="Print to PDF"
 
             <article class="bd-article" role="main">
               
-  <section class="tex2jax_ignore mathjax_ignore" id="the-napari-assistant">
-<h1>The Napari Assistant<a class="headerlink" href="#the-napari-assistant" title="Permalink to this heading">#</a></h1>
-<p>The Napari Assistant is a plugin for napari that allows you setting up an image processing workflow.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="interactive-bioimage-analysis-workflow-design">
+<h1>Interactive bioimage analysis workflow design<a class="headerlink" href="#interactive-bioimage-analysis-workflow-design" title="Permalink to this heading">#</a></h1>
+<p>The <a class="reference external" href="https://www.napari-hub.org/plugins/napari-assistant">Napari Assistant</a> is a Napari plugin that allows you to design an image processing workflow interactively.</p>
 <p>This tutorial is also available as video <a class="reference download internal" download="" href="../_downloads/598f3ab281ff0c91d77f678b270b5537/napari-assistant.mp4"><span class="xref download myst">napari-assistant.mp4</span></a>.</p>
 <p>Start napari from the command line like this:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>activate<span class="w"> </span>devbio-napari-env
@@ -645,7 +645,7 @@ napari
   <a class='right-next' id="next-link" href="notebook_export.html" title="next page">
   <div class="prev-next-info">
       <p class="prev-next-subtitle">next</p>
-      <p class="prev-next-title">Generating Jupyter Notebooks from the Napari Assistant</p>
+      <p class="prev-next-title">Generating Jupyter Notebooks</p>
   </div>
   <i class="fa-solid fa-angle-right"></i>
   </a>

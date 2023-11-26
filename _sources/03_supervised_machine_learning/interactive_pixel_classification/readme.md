@@ -1,5 +1,5 @@
 (machine_learning:pixel_classification)=
-# Interactive pixel classification and object segmentation in Napari
+# Interactive pixel classification and object segmentation
 
 In this exercise we will train a [Random Forest Classifier](https://en.wikipedia.org/wiki/Random_forest) for pixel classification and convert the result in an instance segmentation.
 We will use the napari plugin [napari-accelerated-pixel-and-object-classification](https://www.napari-hub.org/plugins/napari-accelerated-pixel-and-object-classification).
@@ -61,3 +61,7 @@ Click on `Train`. A label image should show up.
 
 If the segmentation works well, consider backing up the `ObjectSegmenter.cl` file that has been saved. 
 If you didn't change the file location before training, it will be located in the folder from where you started napari on the command line.
+
+## Exercise
+
+Train a Object Segmenter for the `human mitosis` example image. You find it in the menu `File > Open Samples > napari builtins > Human mitosis`.
